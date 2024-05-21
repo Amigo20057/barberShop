@@ -1,0 +1,30 @@
+:root {
+	font-family: 'Playfair Display', serif;
+
+	--main-color: #977656;
+	--dark-color: #050505;
+	--lite-main-color: #f2dac2;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	width: 100%;
+	min-width: 320px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
