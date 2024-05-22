@@ -1,5 +1,6 @@
 :root {
 	font-family: 'Playfair Display', serif;
+	scroll-behavior: smooth;
 
 	--main-color: #977656;
 	--dark-color: #050505;
