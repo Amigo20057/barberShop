@@ -18,6 +18,7 @@
 		<title>BarberShop</title>
 		<link rel="stylesheet" href="../styles/main-style.css" />
 		<link rel="stylesheet" href="../styles/style-page-Home.css" />
+		<link rel="stylesheet" href="../styles/media-style-home.css" />
 	</head>
 	<body>
 		<div class="headers">
@@ -29,11 +30,11 @@
 				<div class="info-details">
 					<div>
 						<img src="../icons/location.png" alt="location" />
-						<span>9400 Penatibus Road</span>
+						<span>Zhytomyr</span>
 					</div>
 					<div>
 						<img src="../icons/telephone.png" alt="telephone" />
-						<span>1-366-253-7950</span>
+						<span>380 00 000 00 00</span>
 					</div>
 				</div>
 			</header>
@@ -50,37 +51,25 @@
 						<li><a href="#portfolio">Портфоліо</a></li>
 					</ul>
 				</nav>
-				<!-- <div class="profile">
-					<img src="../icons/bag.png" alt="bag" />
-					<span>КАРТКА</span>
-					<div>O</div>
-				</div> -->
 			</header>
 		</div>
 		<main>
 			<section class="home-section">
 				<div class="home-content">
 					<div class="content">
-						<h1>The Barbershop</h1>
-						<h2>Expert Haircuts and Grooming Services</h2>
+						<h1>Перукарня</h1>
+						<h2>Професійні послуги стрижки та догляду за волоссям</h2>
 						<p>
-							At The Finest Barbershop, we offer a wide range of professional
-							hair cutting and grooming services for men. Our experienced
-							barbers use the latest techniques and tools to give you the
-							perfect look. Whether you're in need of a classic haircut,
-							straight razor shave, or beard trim, we've got you covered.
+							У Barbershop ми пропонуємо широкий спектр послуг професійної
+							стрижки та догляду за волоссям для чоловіків. Наші досвідчені
+							перукарі використовують новітні техніки та інструменти, щоб надати
+							вам ідеальний вигляд. Незалежно від того, чи потрібна вам класична
+							стрижка, гоління бритвою чи підстригання бороди, ми допоможемо
+							вам.
 						</p>
 						<div class="home-btn">
-							<button>BOOK A HAIRCUT</button>
-							<button>START SHOPPING</button>
-						</div>
-					</div>
-					<div class="home-media">
-						<div class="facebook">
-							<img src="../icons/facebbok.png" alt="facebook" />
-						</div>
-						<div class="tiktok">
-							<img src="../icons/tiktok.png" alt="tiktok" />
+							<a href="#portfolio">НАШІ РОБОТИ</a>
+							<a href="#order">ЗАПИСАТИСЯ</a>
 						</div>
 					</div>
 				</div>
@@ -143,7 +132,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div id="content-shaving" class="price-haircuts">
 						<div class="name">
 							<h3>Гоління</h3>
@@ -159,10 +147,8 @@
 									<h4>500 грн</h4>
 								</div>
 							</div>
-							<!-- Add more shaving services here -->
 						</div>
 					</div>
-
 					<div id="content-services" class="price-haircuts">
 						<div class="name">
 							<h3>Комплексні послуги</h3>
@@ -196,10 +182,8 @@
 									<h4>3000 грн</h4>
 								</div>
 							</div>
-							<!-- Add more services here -->
 						</div>
 					</div>
-
 					<div id="content-care" class="price-haircuts">
 						<div class="name">
 							<h3>Догляд</h3>
@@ -233,7 +217,6 @@
 									<h4>800 грн</h4>
 								</div>
 							</div>
-							<!-- Add more care services here -->
 						</div>
 					</div>
 				</div>
@@ -251,20 +234,14 @@
 								<option value="services">Комплексні послуги</option>
 								<option value="care">Догляд</option>
 							</select>
-
 							<label for="serviceOption">Виберіть опцію:</label>
-							<select id="serviceOption" name="serviceOption">
-								<!-- Options will be populated based on serviceType -->
-							</select>
-
+							<select id="serviceOption" name="serviceOption"></select>
 							<label for="totalCost">Загальна вартість:</label>
 							<input type="text" id="totalCost" name="totalCost" readonly />
-
 							<label style="margin-top: 20px" for="phoneNumber"
 								>Номер телефону:</label
 							>
 							<input type="text" id="phoneNumber" name="phoneNumber" />
-
 							<button type="submit">Записатися</button>
 						</form>
 					</div>
@@ -294,30 +271,6 @@
 								<h3>Lucas Silva</h3>
 							</div>
 						</li>
-						<li class="item">
-							<div class="content">
-								<img
-									style="border-radius: 8px; box-shadow: 2px 3px 7px 0px #000"
-									width="316"
-									height="352"
-									src="../images/barber4.jpg"
-									alt="barber4"
-								/>
-								<h3>Lucas Silva</h3>
-							</div>
-						</li>
-						<li class="item">
-							<div class="content">
-								<img
-									style="border-radius: 8px; box-shadow: 2px 3px 7px 0px #000"
-									width="316"
-									height="352"
-									src="../images/barber5.png"
-									alt="barber4"
-								/>
-								<h3>Lucas Silva</h3>
-							</div>
-						</li>
 					</ul>
 				</div>
 			</section>
@@ -330,14 +283,15 @@
 						<img src="../icons/location2.png" alt="location" />
 						<h3>ADDRESS</h3>
 						<div class="line"></div>
-						<p>3696 Lynden Road, Lefroy Ontario canada</p>
+						<p>Zhytomyr</p>
+						<p>Kievska</p>
 					</div>
 					<div class="contact">
 						<img src="../icons/telephone2.png" alt="location" />
 						<h3>PHONE</h3>
 						<div class="line"></div>
-						<p>+62(123)-456-7890</p>
-						<p>+62(123)-456-7890</p>
+						<p>+380 00 000 00 00</p>
+						<p>+380 00 000 00 00</p>
 					</div>
 					<div class="contact">
 						<img src="../icons/time.png" alt="location" />
