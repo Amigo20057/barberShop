@@ -101,7 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
 				'Будь ласка, введіть дійсний номер телефону в форматі +380XXXXXXXXX'
 			)
 		} else {
-			// Proceed with form submission or further processing
 			alert('Вас записано')
 		}
 	})
