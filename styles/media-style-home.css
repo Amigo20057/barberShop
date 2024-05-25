@@ -65,3 +65,15 @@
 		width: 68%;
 	}
 }
+
+@media (max-height: 666px) {
+	.personal-section {
+		height: 100vh;
+	}
+}
+
+@media (max-height: 640px) {
+	.home-section {
+		height: 140vh;
+	}
+}
